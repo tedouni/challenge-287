@@ -65,25 +65,25 @@ def kaprekar(numA):
             returnResult += 1
             if int(tempNum) == 6174:
                 break
-
-
-
-
-
     return returnResult
-print 'Main Challenge:'
-print 'largest_digit(1234) -> ' +  str(largest_digit(1234))
-print 'largest_digit(3253) -> ' +  str(largest_digit(3253))
-print 'largest_digit(9800) -> ' +  str(largest_digit(9800))
-print 'largest_digit(3333) -> ' +  str(largest_digit(3333))
-print 'largest_digit(120) -> ' +  str(largest_digit(120))
-print '\nBonus 1:'
-print 'desc_digits(1234) -> ' + str(desc_digits(1234))
-print 'desc_digits(3253) -> ' + str(desc_digits(3253))
-print 'desc_digits(9800) -> ' + str(desc_digits(9800))
-print 'desc_digits(3333) -> ' + str(desc_digits(3333))
-print 'desc_digits(120) -> ' + str(desc_digits(120))
-print '\nBonus 2:'
-print 'kaprekar(6589) -> '+ str(kaprekar(6589))
-print 'kaprekar(5455) -> '+ str(kaprekar(5455))
-print 'kaprekar(6174) -> '+ str(kaprekar(6174))
+
+def main():
+    print 'Main Challenge:'
+    print 'largest_digit(1234) -> ' +  str(largest_digit(1234))
+    print 'largest_digit(3253) -> ' +  str(largest_digit(3253))
+    print 'largest_digit(9800) -> ' +  str(largest_digit(9800))
+    print 'largest_digit(3333) -> ' +  str(largest_digit(3333))
+    print 'largest_digit(120) -> ' +  str(largest_digit(120))
+    print '\nBonus 1:'
+    print 'desc_digits(1234) -> ' + str(desc_digits(1234))
+    print 'desc_digits(3253) -> ' + str(desc_digits(3253))
+    print 'desc_digits(9800) -> ' + str(desc_digits(9800))
+    print 'desc_digits(3333) -> ' + str(desc_digits(3333))
+    print 'desc_digits(120) -> ' + str(desc_digits(120))
+    print '\nBonus 2:'
+    print 'kaprekar(6589) -> '+ str(kaprekar(6589))
+    print 'kaprekar(5455) -> '+ str(kaprekar(5455))
+    print 'kaprekar(6174) -> '+ str(kaprekar(6174))
+    
+if __name__ == '__main__':
+    main()
